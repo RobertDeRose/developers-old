@@ -90,9 +90,18 @@ body {
 .reference {
     position: relative;
     z-index: 1;
+    background: #373A3C;
 
     & > div {
         padding: 0 2rem;
+    }
+
+//    &.row {
+//        display: flex;
+//    }
+
+    .left {
+        background: white;
     }
 
     .right {
@@ -113,13 +122,14 @@ body {
 }
 
 .endpoint-method {
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-
     &:last-child {
         border: none;
         margin-bottom: 0;
         padding-bottom: 0;
+    }
+
+    .examples {
+        padding-top: 1rem;
     }
 }
 
